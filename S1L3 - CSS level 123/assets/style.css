@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html body{
+    font-family: 'Roboto' , sans-serif;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo img{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.thanksgiving{
+    text-align: center;
+    border-top: 1px solid #ffd977;
+    background-color: #fefbf1;
+    margin-top: 15px;
+}
+
+.thanksgiving p{
+    color: rgb(75, 75, 129);
+}
+
+.principale{
+    text-align: center;;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.principale video{
+    border-radius: 5px;
+    width: 700px;
+}
+
+aside {
+    border-left: 1px solid #ffd977 ;
+    
+}
+
+h5{
+    color: rgb(209, 139, 9);
+}
+
+aside ,h5, a {
+    text-align: left;
+    margin-left: 15px;
+}
+
+section{
+    padding-top: 45px;
+    
+}
+
+section , h4{
+    text-align: left;
+    padding: 15px;
+}
+
+.foccaccia , li{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+article{
+    text-align: left;
+}
