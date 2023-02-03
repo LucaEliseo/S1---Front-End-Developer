@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body { /*Configurazione del body*/
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; /*Centro tutti i testi del body*/
+    color: #393d41;
+}
+
+header{
+    background-color: black; 
+    padding: 1.5em;  /*Definisco la grandezza del contenitore */
+}
+
+header img {
+    width: 10em;    /*Definisco la grandezza del logo*/
+}
+
+.intro{
+    text-align: center;
+    padding: 3em;  /*Definsco il padding del intro*/
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; /*Ridimensionamento del background*/
+    margin-bottom: 3em; /*Distanzio il primo paragrafo*/
+}
+
+.intro h1{
+    font-size: 2em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+    color: #25a2c3;
+}
+
+.intro p{
+    margin-bottom: 3.5em;
+}
+
+.intro a{
+    color: white;
+    background-color: #f04c2f;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 0.8em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Rivedere quest'ultima parte possibilità di alleggerire il css senza ripetizioni*/
+.primo_paragrafo{
+    margin-bottom: 2em;
+}
+
+.primo_paragrafo h2{
+    color: #25a2c3;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+}
+
+.primo_paragrafo p{
+    font-size: 0.8em;
+}
+
+.secondo_paragrafo{
+    margin-bottom: 0.5em;
+}
+
+.secondo_paragrafo h2{
+    color: #25a2c3;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+}
+
+.secondo_paragrafo p{
+    font-size: 0.8em;
+}
+
+.img img{
+    border-radius: 50%;
+    width: 18em;
+    margin-bottom: 2em;
+}
+
+.terzo_paragrafo{
+    margin-bottom: 2em;
+}
+
+.terzo_paragrafo h2{
+    color: #25a2c3;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+}
+
+.terzo_paragrafo p{
+    font-size: 0.8em;
+}
+
+.quarto_paragrafo{
+    margin-bottom: 2em;
+}
+
+.quarto_paragrafo h2{
+    color: #25a2c3;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+}
+
+.quarto_paragrafo p{
+    font-size: 0.8em;
+}
+
+/*Fino alla fine di questo blocco*/
+
+.banner{
+    background-color: #e22d0e;
+    padding: 3em;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.banner h2{
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.banner h4{
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+}
+
+.banner h5{
+    font-size: small;
+}
+
+/* Rivedere quest'ultima parte possibilità di alleggerire il css senza ripetizioni*/
+
+.articolo1{
+    margin-bottom: 2em;
+}
+
+.articolo1 img{
+    width: 20em; /*Ridimensionamento Foto*/
+    margin-bottom: 1em;
+}
+
+.articolo1 h3{
+    color: #25a2c3;
+    font-size: 1.em;
+    font-weight: bolder;
+    margin-bottom: 0.8em;
+}
+
+.articolo2{
+    margin-bottom: 2em;
+}
+
+.articolo2 img{
+    width: 20em; /*Ridimensionamento Foto*/
+    margin-bottom: 1em;
+}
+
+.articolo2 h3{
+    color: #25a2c3;
+    font-size: 1.em;
+    font-weight: bolder;
+    margin-bottom: 0.8em;
+}
+
+.articolo3{
+    margin-bottom: 2em;
+}
+
+.articolo3 img{
+    width: 20em; /*Ridimensionamento Foto*/
+    margin-bottom: 1em;
+}
+
+.articolo3 h3{
+    color: #25a2c3;
+    font-size: 1.em;
+    font-weight: bolder;
+    margin-bottom: 0.8em;
+}
+
+/*Fino alla fine di questo blocco*/
+
+footer{
+    background-color: #25a2c3;
+    padding: 2em;
+}
+
+footer h3{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+
+.contatti li , a{
+    list-style: none;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+hr{
+    width: 12em;
+    margin-top: 2em;    /*Ridimensione i margini tra i contatti e il copy*/
+    margin-bottom: 2em;
+}
+
+.contatti p{
+    color: white;
+    font-size:small
+}
